@@ -22,3 +22,13 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  margin-left: 15px;
+  
+}
+
+.image {
+  width: 300px;
+  margin-bottom: 30px;
+}
