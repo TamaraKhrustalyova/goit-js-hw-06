@@ -18,7 +18,5 @@ const createGallery = images.map((image) =>
 )
 .join('');
 
-console.log(createGallery);
-
 const galleryEl = document.querySelector('.gallery');
 galleryEl.insertAdjacentHTML("beforeend", createGallery);

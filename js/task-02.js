@@ -18,4 +18,3 @@ const list = ingredients.map(item => {
 const ingredientsEl = document.getElementById('ingredients');
 
 ingredientsEl.append(...list);
-console.log(ingredientsEl);

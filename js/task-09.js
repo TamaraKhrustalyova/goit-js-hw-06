@@ -3,9 +3,6 @@
   const buttonEl = document.querySelector('.change-color');
   const colorEl = document.querySelector('.color');
 
-  console.log(bodyEl);
-  console.log(buttonEl);
-
 buttonEl.addEventListener('click', changeBackgroundColor);
 
 function getRandomHexColor() {
